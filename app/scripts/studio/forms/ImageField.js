@@ -181,6 +181,9 @@ export class ImageField extends Field {
           new TextField('text', {
             title: 'Text',
           }),
+            new TextField('text2', {
+            title: 'Text2',
+          }),
           (fontFamilyField = new EnumField('font', {
             title: 'Font',
             helpText: 'From fonts.google.com'
